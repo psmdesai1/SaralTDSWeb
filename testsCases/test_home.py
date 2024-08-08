@@ -9,3 +9,5 @@ class TestHomePage(BaseClass):
     def test_home(self):
         hp = HomePage(self.driver)
         hp.home().click()
+
+    print("execution is successful")
